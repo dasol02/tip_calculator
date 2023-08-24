@@ -26,6 +26,9 @@
 		CBE347372A971B4300933907 /* TipInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347362A971B4300933907 /* TipInputView.swift */; };
 		CBE347392A971B4B00933907 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347382A971B4B00933907 /* LogoView.swift */; };
 		CBE3473B2A971B5200933907 /* BillInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3473A2A971B5200933907 /* BillInputView.swift */; };
+		CBE3473F2A9722E800933907 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3473E2A9722E800933907 /* UIColor.swift */; };
+		CBE347412A97230400933907 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347402A97230400933907 /* ThemeColor.swift */; };
+		CBE347432A97230E00933907 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347422A97230E00933907 /* ThemeFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		CBE347362A971B4300933907 /* TipInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipInputView.swift; sourceTree = "<group>"; };
 		CBE347382A971B4B00933907 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		CBE3473A2A971B5200933907 /* BillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillInputView.swift; sourceTree = "<group>"; };
+		CBE3473E2A9722E800933907 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		CBE347402A97230400933907 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		CBE347422A97230E00933907 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,8 @@
 		CBE346F02A96E39200933907 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CBE3473C2A9722D600933907 /* Extenstion */,
+				CBE3473D2A9722DF00933907 /* Config */,
 				CBE347312A971AC500933907 /* View */,
 				CBE346F12A96E39200933907 /* AppDelegate.swift */,
 				CBE346F32A96E39200933907 /* SceneDelegate.swift */,
@@ -166,6 +174,23 @@
 				CBE3473A2A971B5200933907 /* BillInputView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CBE3473C2A9722D600933907 /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				CBE3473E2A9722E800933907 /* UIColor.swift */,
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		CBE3473D2A9722DF00933907 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CBE347402A97230400933907 /* ThemeColor.swift */,
+				CBE347422A97230E00933907 /* ThemeFont.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,14 +340,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE347432A97230E00933907 /* ThemeFont.swift in Sources */,
 				CBE346F62A96E39200933907 /* CalculatorViewController.swift in Sources */,
 				CBE347372A971B4300933907 /* TipInputView.swift in Sources */,
 				CBE347332A971AD000933907 /* ResultView.swift in Sources */,
 				CBE346F22A96E39200933907 /* AppDelegate.swift in Sources */,
+				CBE3473F2A9722E800933907 /* UIColor.swift in Sources */,
 				CBE3473B2A971B5200933907 /* BillInputView.swift in Sources */,
 				CBE347392A971B4B00933907 /* LogoView.swift in Sources */,
 				CBE346F42A96E39200933907 /* SceneDelegate.swift in Sources */,
 				CBE347352A971B3E00933907 /* SplitInputView.swift in Sources */,
+				CBE347412A97230400933907 /* ThemeColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
