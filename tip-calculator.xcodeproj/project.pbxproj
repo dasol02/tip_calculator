@@ -31,6 +31,7 @@
 		CBE347432A97230E00933907 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347422A97230E00933907 /* ThemeFont.swift */; };
 		CBE347462A97264B00933907 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347452A97264B00933907 /* LabelFactory.swift */; };
 		CBE3476E2A98366300933907 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3476D2A98366300933907 /* UIView.swift */; };
+		CBE347702A983B3A00933907 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3476F2A983B3A00933907 /* AmountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		CBE347422A97230E00933907 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		CBE347452A97264B00933907 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		CBE3476D2A98366300933907 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CBE3476F2A983B3A00933907 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				CBE3473A2A971B5200933907 /* BillInputView.swift */,
 				CBE347362A971B4300933907 /* TipInputView.swift */,
 				CBE347342A971B3E00933907 /* SplitInputView.swift */,
+				CBE3476F2A983B3A00933907 /* AmountView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE347702A983B3A00933907 /* AmountView.swift in Sources */,
 				CBE3476E2A98366300933907 /* UIView.swift in Sources */,
 				CBE347432A97230E00933907 /* ThemeFont.swift in Sources */,
 				CBE346F62A96E39200933907 /* CalculatorViewController.swift in Sources */,
