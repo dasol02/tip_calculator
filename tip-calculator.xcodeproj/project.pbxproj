@@ -33,6 +33,7 @@
 		CBE3476E2A98366300933907 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3476D2A98366300933907 /* UIView.swift */; };
 		CBE347702A983B3A00933907 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3476F2A983B3A00933907 /* AmountView.swift */; };
 		CBE347722A98414300933907 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347712A98414300933907 /* HeaderView.swift */; };
+		CBE347752A984D1800933907 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347742A984D1800933907 /* Tip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		CBE3476D2A98366300933907 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		CBE3476F2A983B3A00933907 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		CBE347712A98414300933907 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CBE347742A984D1800933907 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		CBE346F02A96E39200933907 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CBE347732A984D1100933907 /* Model */,
 				CBE3473C2A9722D600933907 /* Extenstion */,
 				CBE347442A97263600933907 /* Factory */,
 				CBE3473D2A9722DF00933907 /* Config */,
@@ -211,6 +214,14 @@
 				CBE347452A97264B00933907 /* LabelFactory.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		CBE347732A984D1100933907 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBE347742A984D1800933907 /* Tip.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE347702A983B3A00933907 /* AmountView.swift in Sources */,
+				CBE347752A984D1800933907 /* Tip.swift in Sources */,
 				CBE3476E2A98366300933907 /* UIView.swift in Sources */,
 				CBE347432A97230E00933907 /* ThemeFont.swift in Sources */,
 				CBE346F62A96E39200933907 /* CalculatorViewController.swift in Sources */,
