@@ -34,6 +34,8 @@
 		CBE347702A983B3A00933907 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3476F2A983B3A00933907 /* AmountView.swift */; };
 		CBE347722A98414300933907 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347712A98414300933907 /* HeaderView.swift */; };
 		CBE347752A984D1800933907 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347742A984D1800933907 /* Tip.swift */; };
+		CBE347782A9869FD00933907 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347772A9869FD00933907 /* Result.swift */; };
+		CBE3477A2A986A2B00933907 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347792A986A2B00933907 /* CalculatorVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		CBE3476F2A983B3A00933907 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		CBE347712A98414300933907 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		CBE347742A984D1800933907 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		CBE347772A9869FD00933907 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		CBE347792A986A2B00933907 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 		CBE346F02A96E39200933907 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CBE347762A9869F400933907 /* ViewModel */,
 				CBE347732A984D1100933907 /* Model */,
 				CBE3473C2A9722D600933907 /* Extenstion */,
 				CBE347442A97263600933907 /* Factory */,
@@ -220,8 +225,17 @@
 			isa = PBXGroup;
 			children = (
 				CBE347742A984D1800933907 /* Tip.swift */,
+				CBE347772A9869FD00933907 /* Result.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CBE347762A9869F400933907 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBE347792A986A2B00933907 /* CalculatorVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,7 +399,9 @@
 				CBE347722A98414300933907 /* HeaderView.swift in Sources */,
 				CBE346F42A96E39200933907 /* SceneDelegate.swift in Sources */,
 				CBE347462A97264B00933907 /* LabelFactory.swift in Sources */,
+				CBE347782A9869FD00933907 /* Result.swift in Sources */,
 				CBE347352A971B3E00933907 /* SplitInputView.swift in Sources */,
+				CBE3477A2A986A2B00933907 /* CalculatorVM.swift in Sources */,
 				CBE347412A97230400933907 /* ThemeColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
