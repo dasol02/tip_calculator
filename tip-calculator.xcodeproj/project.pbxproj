@@ -36,6 +36,7 @@
 		CBE347752A984D1800933907 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347742A984D1800933907 /* Tip.swift */; };
 		CBE347782A9869FD00933907 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347772A9869FD00933907 /* Result.swift */; };
 		CBE3477A2A986A2B00933907 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347792A986A2B00933907 /* CalculatorVM.swift */; };
+		CBE3477C2A986FA300933907 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3477B2A986FA300933907 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		CBE347742A984D1800933907 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		CBE347772A9869FD00933907 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		CBE347792A986A2B00933907 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
+		CBE3477B2A986FA300933907 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			children = (
 				CBE3473E2A9722E800933907 /* UIColor.swift */,
 				CBE3476D2A98366300933907 /* UIView.swift */,
+				CBE3477B2A986FA300933907 /* String.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE3477C2A986FA300933907 /* String.swift in Sources */,
 				CBE347702A983B3A00933907 /* AmountView.swift in Sources */,
 				CBE347752A984D1800933907 /* Tip.swift in Sources */,
 				CBE3476E2A98366300933907 /* UIView.swift in Sources */,
