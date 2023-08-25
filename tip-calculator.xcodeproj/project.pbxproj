@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CBDD78702A9893D6004A05CE /* UiResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD786F2A9893D6004A05CE /* UiResponder.swift */; };
+		CBDD78722A98A002004A05CE /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD78712A98A002004A05CE /* Int.swift */; };
 		CBE346F22A96E39200933907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE346F12A96E39200933907 /* AppDelegate.swift */; };
 		CBE346F42A96E39200933907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE346F32A96E39200933907 /* SceneDelegate.swift */; };
 		CBE346F62A96E39200933907 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE346F52A96E39200933907 /* CalculatorViewController.swift */; };
@@ -59,6 +60,7 @@
 
 /* Begin PBXFileReference section */
 		CBDD786F2A9893D6004A05CE /* UiResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiResponder.swift; sourceTree = "<group>"; };
+		CBDD78712A98A002004A05CE /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		CBE346EE2A96E39200933907 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE346F12A96E39200933907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBE346F32A96E39200933907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				CBE3476D2A98366300933907 /* UIView.swift */,
 				CBE3477B2A986FA300933907 /* String.swift */,
 				CBDD786F2A9893D6004A05CE /* UiResponder.swift */,
+				CBDD78712A98A002004A05CE /* Int.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				CBE3477C2A986FA300933907 /* String.swift in Sources */,
 				CBE347702A983B3A00933907 /* AmountView.swift in Sources */,
 				CBE347752A984D1800933907 /* Tip.swift in Sources */,
+				CBDD78722A98A002004A05CE /* Int.swift in Sources */,
 				CBE3476E2A98366300933907 /* UIView.swift in Sources */,
 				CBE347432A97230E00933907 /* ThemeFont.swift in Sources */,
 				CBE346F62A96E39200933907 /* CalculatorViewController.swift in Sources */,
