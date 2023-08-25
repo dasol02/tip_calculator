@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBDD78702A9893D6004A05CE /* UiResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD786F2A9893D6004A05CE /* UiResponder.swift */; };
 		CBE346F22A96E39200933907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE346F12A96E39200933907 /* AppDelegate.swift */; };
 		CBE346F42A96E39200933907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE346F32A96E39200933907 /* SceneDelegate.swift */; };
 		CBE346F62A96E39200933907 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE346F52A96E39200933907 /* CalculatorViewController.swift */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBDD786F2A9893D6004A05CE /* UiResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiResponder.swift; sourceTree = "<group>"; };
 		CBE346EE2A96E39200933907 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE346F12A96E39200933907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBE346F32A96E39200933907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				CBE3473E2A9722E800933907 /* UIColor.swift */,
 				CBE3476D2A98366300933907 /* UIView.swift */,
 				CBE3477B2A986FA300933907 /* String.swift */,
+				CBDD786F2A9893D6004A05CE /* UiResponder.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				CBE3473F2A9722E800933907 /* UIColor.swift in Sources */,
 				CBE3473B2A971B5200933907 /* BillInputView.swift in Sources */,
 				CBE347392A971B4B00933907 /* LogoView.swift in Sources */,
+				CBDD78702A9893D6004A05CE /* UiResponder.swift in Sources */,
 				CBE347722A98414300933907 /* HeaderView.swift in Sources */,
 				CBE346F42A96E39200933907 /* SceneDelegate.swift in Sources */,
 				CBE347462A97264B00933907 /* LabelFactory.swift in Sources */,
