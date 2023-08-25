@@ -10,7 +10,11 @@ import UIKit
 class BillInputView: UIView {
     
     private let headerView: HeaderView = {
-        return HeaderView()
+        let view = HeaderView()
+        view.configure(
+            topText: "Enter",
+            bottomText: "your bill")
+        return view
     }()
     
     private let textFieldContainerView: UIView = {
