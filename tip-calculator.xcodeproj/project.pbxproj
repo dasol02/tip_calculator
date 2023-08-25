@@ -30,6 +30,7 @@
 		CBE347412A97230400933907 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347402A97230400933907 /* ThemeColor.swift */; };
 		CBE347432A97230E00933907 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347422A97230E00933907 /* ThemeFont.swift */; };
 		CBE347462A97264B00933907 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE347452A97264B00933907 /* LabelFactory.swift */; };
+		CBE3476E2A98366300933907 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3476D2A98366300933907 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		CBE347402A97230400933907 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		CBE347422A97230E00933907 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		CBE347452A97264B00933907 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		CBE3476D2A98366300933907 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE3473E2A9722E800933907 /* UIColor.swift */,
+				CBE3476D2A98366300933907 /* UIView.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE3476E2A98366300933907 /* UIView.swift in Sources */,
 				CBE347432A97230E00933907 /* ThemeFont.swift in Sources */,
 				CBE346F62A96E39200933907 /* CalculatorViewController.swift in Sources */,
 				CBE347372A971B4300933907 /* TipInputView.swift in Sources */,
