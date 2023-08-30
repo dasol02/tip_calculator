@@ -75,6 +75,10 @@ class SplitInputView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    public func reset() {
+        splitSubject.send(1)
+    }
 
     private func layout() {
         [headerView, stackView].forEach(addSubview(_:))
