@@ -21,6 +21,7 @@ class TipInputView: UIView {
     
     private lazy var tenPercentTipButton: UIButton = {
         let button = buildTipButton(tip: .tenPercent)
+        button.accessibilityIdentifier = ScreenIdentifier.TipInputView.tenPercentButton.rawValue
         button.tapPublisher.flatMap({
             Just(Tip.tenPercent)
         }).assign(to: \.value, on: tipSubject)
@@ -30,6 +31,7 @@ class TipInputView: UIView {
     
     private lazy var fiftenPercentTipButton: UIButton = {
         let button = buildTipButton(tip: .fiftenPercent)
+        button.accessibilityIdentifier = ScreenIdentifier.TipInputView.fifteenPercentButton.rawValue
         button.tapPublisher.flatMap({
             Just(Tip.fiftenPercent)
         }).assign(to: \.value, on: tipSubject)
@@ -39,6 +41,7 @@ class TipInputView: UIView {
     
     private lazy var twentyPercentTipButton: UIButton = {
         let button = buildTipButton(tip: .twentyPercent)
+        button.accessibilityIdentifier = ScreenIdentifier.TipInputView.twentyPercentButton.rawValue
         button.tapPublisher.flatMap({
             Just(Tip.twentyPercent)
         }).assign(to: \.value, on: tipSubject)
@@ -48,7 +51,8 @@ class TipInputView: UIView {
     
     private lazy var customTipButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Custom Tip", for: .normal)
+        button.accessibilityIdentifier = ScreenIdentifier.TipInputView.customTipButton.rawValue
+        button.setTitle("Custom tip", for: .normal)
         button.titleLabel?.font = ThemeFont.bold(ofSize: 20)
         button.backgroundColor = ThemeColor.primary
         button.tintColor = .white
@@ -128,6 +132,7 @@ class TipInputView: UIView {
                 textField.placeholder = "Make it generous"
                 textField.keyboardType = .numberPad
                 textField.autocapitalizationType = .none
+                textField.accessibilityIdentifier = ScreenIdentifier.TipInputView.customTipAlertTextField.rawValue
             }
             let cancleAction = UIAlertAction(
                 title: "Cancel",
@@ -183,7 +188,7 @@ class TipInputView: UIView {
         }
         
         let text = NSMutableAttributedString(
-            string: "Custom Tip",
+            string: "Custom tip",
             attributes: [.font: ThemeFont.bold(ofSize: 20)])
         customTipButton.setAttributedTitle(text, for: .normal)
     }
